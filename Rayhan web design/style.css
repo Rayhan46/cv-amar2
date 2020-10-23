@@ -1,0 +1,135 @@
+*{margin: 0; padding: 0;}
+body{font-family: arial; font-size: 15px; line-height: 25px; color: #333;}
+h1,h2,h3,h4,h5,h6{font-family: arial black;}
+img{max-width: 100%;}
+#service_block{
+    background: rgb(255, 247, 247);;
+    width: 335px;
+    padding: 15px;
+    overflow: hidden;
+    line-height: 20px;
+    display: inline-block;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    animation-name:xoomInMyBoxes ;
+    animation-duration:  1s;
+    margin: 10px;
+}
+#service_block:hover{background: transparent; cursor: pointer; transition: all 2s;
+transform:rotate(360deg);}
+@keyframes xoomInMyBoxes{
+    from{transform: scale(0.1);}
+    to{transform: scale(1);}
+}
+#service_block :hover i{color: white;}   
+#section_title{
+    text-align:center ;
+}
+div#rightContent{
+    width: 250px;
+    float: right;  
+}
+#leftIcon{width: 70px;
+    font-size: 50px;
+    float: left;
+    margin-top: 10px;
+    color: orange;
+}
+#rightContent,#leftIcon{display: inline-block;}
+#rightContent h2{margin-bottom: 10px; font-size: 18px;}
+#rightContent p{font-size: 13px;}
+#allblocks{
+    width: 1170px;
+    margin: auto;
+    padding: 20px 0px;
+    overflow:hidden ;
+}
+#service_section{ 
+background: rgba(46, 3, 3, 0.4);
+}
+section{
+    padding: 50px 0px;
+    overflow: hidden;
+    width: 100%;
+
+}
+#section_title {
+    
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+#service_section#section_title {
+    color: white;
+
+}
+#section_title_text span{color: orange;}
+#allblocks{
+    color:black;
+}
+#about_image {
+    width: 635px;
+padding-left: 324px;
+}
+#about_right{
+
+    width: 514px;
+padding: 76px;
+}
+#about_right,#about_image{display: inline-block;}
+#allBlock {
+    overflow: hidden;
+    padding: 20px 0px;
+    margin: auto;
+}
+#about_contens_all{padding: 30px 0px,}
+#about_right h2 {
+    margin-bottom: 25px;
+    border-bottom: 2px solid #080009;
+    padding-bottom: 10px;
+}
+footer{background: #333; color: white;}
+nav{
+    padding: 0px;
+border: 3px solid orange;
+background: #0000;
+}
+#main_menu{
+    float: right;
+    width: 700px;
+}
+#main_menu{margin: 0;padding: 0; list-style: none; float: right;}
+#main_menu li{display: inline-block;}
+#main_menu li a{
+    text-decoration:none ;
+     text-transform: uppercase;     
+       padding: 15px 20px;
+       font-size: 18px;
+       color: #444;
+ }
+ #menu_div{
+     width: 1170px; 
+    margin:auto ;
+    display:inline-block;
+    overflow: hidden;
+}
+#logo{
+    float:left ;
+    width: 200px;
+}
+#menu_inner{
+    float: right;
+width: 700px;
+margin-top:20px ;
+}
+#main_menu li a:hover{
+    border-bottom: 2px solid black;
+    background: seashell;
+
+}
+#about_us {
+    border: 1px solid black;
+}
+#icons {
+    margin-left: 1819px;
+    font-size: 22px;
+}
